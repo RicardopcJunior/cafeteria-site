@@ -9,6 +9,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    background-color: black;
 }
 
 .header section{
@@ -65,5 +66,38 @@ body{
 
 .botao{
     background-color: chocolate;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.sobre h3{
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.sobre-content{
+    display: flex;
+    align-items: center;
+    background-color:dimgrey;
+    padding: 0;
+    gap: 1rem;
+    max-width: 1000px;
+    max-height: 456px;
+    margin: auto;
+}
+
+.sobre-content p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.sobre-content img{
+    margin-top: 4px;
 }
 
