@@ -30,6 +30,40 @@ body{
 }
 
 .nav a:hover{
-    text-decoration: rgb(35, 65, 92);
+    color: rgb(217, 198, 235);
+    transition: 0.3s;
+}
+
+.home{
+    background: url(./img/home-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home-content{
+    max-width: 60rem;
+    padding: 2rem 22rem 2rem 2rem;
+}
+
+.home-content h1{
+    color:white;
+    font-size: 4rem;
+    
+}
+
+.home-content p{
+    color:white;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.botao{
+    background-color: chocolate;
 }
 
