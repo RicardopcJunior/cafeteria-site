@@ -65,7 +65,10 @@ body{
 }
 
 .botao{
-    background-color: chocolate;
+    padding: 1rem;
+    margin-top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .sobre h2{
@@ -101,3 +104,66 @@ body{
     margin-top: 4px;
 }
 
+.menu-café{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid white;
+    padding: 3rem;
+}
+
+.box:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+.box:hover>*{
+    color: black;
+}
+
+.box h3{
+    color: white;
+    padding: 1rem;
+
+}
+
+.box p{
+    color: white;
+    padding: 1rem;
+}
+
+.menu-botao{
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.box-1 h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.endereço{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.endereço h2{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
