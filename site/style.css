@@ -167,3 +167,23 @@ body{
     font-size: 2rem;
     padding-bottom: 2rem;
 }
+
+@media (max-width: 768px){
+
+    .menu{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
